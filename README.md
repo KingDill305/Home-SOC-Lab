@@ -1,4 +1,4 @@
-# 🛡️ Home SOC Lab — Wazuh SIEM on VirtualBox
+# Home SOC Lab — Wazuh SIEM on VirtualBox
 
 **Author:** Dillon Wilson  
 **Date:** May 2026  
@@ -7,7 +7,7 @@
 
 ---
 
-## 📋 Project Overview
+## Project Overview
 
 Built a fully functional home Security Operations Center (SOC) lab using free, open-source tools on a personal Windows machine. The lab consists of a Wazuh SIEM server monitoring a live Ubuntu agent VM, with simulated attacks triggering real alerts mapped to the MITRE ATT&CK framework.
 
@@ -18,7 +18,7 @@ This project demonstrates hands-on skills relevant to:
 
 ---
 
-## 🏗️ Lab Architecture
+## Lab Architecture
 
 ```
 ┌─────────────────────────────────────────────┐
@@ -41,7 +41,7 @@ This project demonstrates hands-on skills relevant to:
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 | Tool | Version | Purpose |
 |------|---------|---------|
@@ -53,7 +53,7 @@ This project demonstrates hands-on skills relevant to:
 
 ---
 
-## ⚙️ Setup Steps
+## Setup Steps
 
 ### Phase 1 — Downloaded Required Software
 - Oracle VirtualBox from `virtualbox.org`
@@ -101,7 +101,7 @@ nmap -sV 192.168.56.101
 
 ---
 
-## 🚨 Detections & Alerts
+## Detections & Alerts
 
 Wazuh detected and categorized all simulated attacks automatically:
 
@@ -125,7 +125,7 @@ Clean result — only expected ports open, no unnecessary attack surface.
 
 ---
 
-## 📝 Incident Log
+## Incident Log
 
 ### Incident 001 — Brute-Force SSH Attempt
 ```
@@ -176,7 +176,7 @@ Resolved By:  N/A (controlled test)
 
 ---
 
-## 📸 Lab Screenshots
+## Lab Screenshots
 
 > Screenshots taken throughout the build and attack simulation phases.
 
@@ -238,7 +238,7 @@ Real issues encountered and resolved during this build — useful for anyone rep
 
 ---
 
-## 📚 Skills Demonstrated
+## Skills Demonstrated
 
 - **SIEM deployment** — Stood up Wazuh server with indexer and dashboard from OVA
 - **Agent configuration** — Installed and configured Wazuh agent on Linux endpoint
@@ -251,18 +251,15 @@ Real issues encountered and resolved during this build — useful for anyone rep
 
 ---
 
-## 🎓 Certifications In Progress
+## Certifications In Progress
 
 - CompTIA Security+ *(in progress)*
 - AWS Academy — Cloud Security Foundations ✅
 
 ---
 
-## 🔗 Related Projects
+## Related Projects
 
 - [Network Vulnerability Scanner + PDF Report](../nmap-report/) — Python script that automates Nmap scanning and generates professional vulnerability reports
-- Active Directory Home Lab *(coming soon)*
+- Active Directory Home Lab 
 
----
-
-*Built as part of an undergraduate cybersecurity portfolio at the University of Central Florida (UCF) — Computer Science, Class of 2027*
