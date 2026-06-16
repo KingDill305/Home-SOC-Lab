@@ -251,13 +251,6 @@ Real issues encountered and resolved during this build — useful for anyone rep
 
 ---
 
-## Certifications In Progress
-
-- CompTIA Security+ *(in progress)*
-- AWS Academy — Cloud Security Foundations ✅
-
----
-
 ## Related Projects
 
 - [Network Vulnerability Scanner + PDF Report](../nmap-report/) — Python script that automates Nmap scanning and generates professional vulnerability reports
