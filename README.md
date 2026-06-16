@@ -183,8 +183,8 @@ Resolved By:  N/A (controlled test)
 ### VM Setup
 | | |
 |---|---|
-| ![Wazuh OVA imported and running in VirtualBox](<screenshots/01_wazuh_vm_running.png>) | ![Ubuntu agent VM booting](<screenshots/02_ubuntu_booting.png>) |
-| *Wazuh v4.14.5 OVA imported and running — 8192MB RAM, 4 CPUs* | *Ubuntu 26.04 agent VM booting up* |
+| ![Wazuh OVA imported and running in VirtualBox](<screenshots/01_wazuh_vm_running.png>) | 
+| *Wazuh v4.14.5 OVA imported and running — 8192MB RAM, 4 CPUs* | 
 
 ### Wazuh Dashboard
 | | |
